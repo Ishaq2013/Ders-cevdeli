@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #0095ff, #00ff9f, #b7ff00, #ffb300);
+}
+table{
+    border-collapse: collapse collapse;
+    width: 75%;
+    border: 3px solid black;
+}
+table > thead > tr > th{
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
+table > tbody > tr > td{
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
