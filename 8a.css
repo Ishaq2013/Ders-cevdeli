@@ -19,6 +19,65 @@ table > tbody > tr > td{
     padding: 10px;
     text-align: center;
 }
+* {
+  box-sizing: border-box;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Telefon və planşet */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container,
+  .wrapper,
+  header,
+  nav,
+  main,
+  footer,
+  section {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Menyunu alt-alta et */
+  nav ul,
+  .menu,
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* 2-3 sütunlu yerləri 1 sütun et */
+  .row,
+  .grid,
+  .content,
+  .layout {
+    display: block !important;
+  }
+
+  /* Sabit enli blokları sındır */
+  div,
+  section,
+  article {
+    max-width: 100%;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}
 
 
 
